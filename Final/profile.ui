@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>991</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>631</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 0, 0);
+border: 2px solid red;
+border-color: rgb(0, 85, 255);</string>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>627</width>
+       <height>457</height>
+      </rect>
+     </property>
+     <widget class="QFrame" name="profilepic">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>301</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"> background: transparent;
+color: rgb(0, 255, 255);
+border-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="ppic">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>301</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_3">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>50</y>
+        <width>211</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"> background: transparent;
+border-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="p1_playlist">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>40</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton {
+ background: transparent;
+color: rgb(0, 255, 255);
+border-color: rgb(0, 255, 255);
+font:15pt &quot;Arial Black&quot;;
+color: rgb(0, 255, 255);
+border-color: rgb(255, 255, 255);
+
+}
+
+QPushButton:hover {
+	
+	
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>Playlist</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="mp2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>80</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton {
+ background: transparent;
+color: rgb(0, 255, 255);
+border-color: rgb(0, 255, 255);
+font:15pt &quot;Arial Black&quot;;
+color: rgb(0, 255, 255);
+border-color: rgb(255, 255, 255);
+
+}
+
+QPushButton:hover {
+	
+	
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>Music Player</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="terms">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>120</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton {
+ background: transparent;
+color: rgb(0, 255, 255);
+border-color: rgb(0, 255, 255);
+font:12pt &quot;Arial Black&quot;;
+color: rgb(0, 255, 255);
+border-color: rgb(255, 255, 255);
+
+}
+
+QPushButton:hover {
+	
+	
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>Terms and Conditions</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="backtomain4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>160</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton {
+ background: transparent;
+color: rgb(0, 255, 255);
+border-color: rgb(0, 255, 255);
+font:15pt &quot;Arial Black&quot;;
+color: rgb(0, 255, 255);
+border-color: rgb(255, 255, 255);
+
+}
+
+QPushButton:hover {
+	
+	
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 255, 255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="logout2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>200</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton {
+ background: transparent;
+color: rgb(0, 255, 255);
+border-color: rgb(0, 255, 255);
+font:15pt &quot;Arial Black&quot;;
+color: rgb(0, 255, 255);
+border-color: rgb(255, 255, 255);
+
+}
+
+QPushButton:hover {
+	
+	
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>LogOut</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="browseimg">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton {
+ background: transparent;
+color: rgb(0, 255, 255);
+border-color: rgb(0, 255, 255);
+font:15pt &quot;Arial Black&quot;;
+color: rgb(0, 255, 255);
+border-color: rgb(255, 255, 255);
+
+}
+
+QPushButton:hover {
+	
+	
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>Set Profile Photo</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>631</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../Images/30ddf480b91bf411c34a911e9e890dc0.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>label_3</zorder>
+     <zorder>profilepic</zorder>
+     <zorder>frame_3</zorder>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>631</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 0, 0);
+border: 2px solid red;
+border-color: rgb(0, 85, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>10</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(0, 0, 0);
+font: 30pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 0);
+</string>
+     </property>
+     <property name="text">
+      <string>Profile</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

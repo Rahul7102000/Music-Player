@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>448</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>448</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>501</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:2px solid red;
+border-color: rgb(0, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="playButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>350</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+color: rgb(0, 255, 255);
+}
+QPushButton:hover{
+	border-color: rgb(255, 255, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>play.png</normaloff>play.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>400</width>
+       <height>57</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pauseButton">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>350</y>
+       <width>131</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+color: rgb(0, 255, 255);
+}
+QPushButton:hover{
+	border-color: rgb(255, 255, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Images/pause.png</normaloff>../Images/pause.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>100</width>
+       <height>56</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="stopButton">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>350</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+color: rgb(0, 255, 255);
+}
+QPushButton:hover{
+	border-color: rgb(255, 255, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Images/images.jpg</normaloff>../Images/images.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>105</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="resumebutton">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>350</y>
+       <width>131</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+color: rgb(0, 255, 255);
+}
+QPushButton:hover{
+	border-color: rgb(255, 255, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Images/resume.PNG</normaloff>../Images/resume.PNG</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>200</width>
+       <height>57</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="browse1">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>290</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+color: rgb(0, 255, 255);
+}
+QPushButton:hover{
+	border-color: rgb(255, 255, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Images/EUDBeFnWAAYijS_.png</normaloff>../Images/EUDBeFnWAAYijS_.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>100</width>
+       <height>66</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="backtohome1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>290</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+color: rgb(0, 255, 255);
+}
+QPushButton:hover{
+	border-color: rgb(255, 255, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Images/8.webp</normaloff>../Images/8.webp</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>101</width>
+       <height>60</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QFrame" name="playlist">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>501</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QListView" name="playlistView">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>501</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>501</width>
+        <height>261</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 255, 255);</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QSlider" name="volumeSlider">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>320</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSliderl{
+color: rgb(170, 255, 255);
+font: 11pt &quot;MS Shell Dlg 2&quot;;
+}
+QSlider:hover{
+	border-color: rgb(255, 255, 0);
+	
+	color: rgb(0, 255, 255);
+}</string>
+     </property>
+     <property name="maximum">
+      <number>100</number>
+     </property>
+     <property name="value">
+      <number>100</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>320</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel:hover{
+	border-color: rgb(255, 255, 0);
+
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../Images/speaker-with-three-sound-waves_1f50a.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="totalTimeLabel">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>260</y>
+       <width>80</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+color: rgb(170, 255, 255);
+font: 11pt &quot;MS Shell Dlg 2&quot;;
+}
+QLabel:hover{
+	border-color: rgb(255, 255, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>0:00</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="currentTimeLabel">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>260</y>
+       <width>80</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+color: rgb(170, 255, 255);
+font: 11pt &quot;MS Shell Dlg 2&quot;;
+}
+QLabel:hover{
+	border-color: rgb(255, 255, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>0:00</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QSlider" name="timeSlider">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>260</y>
+       <width>341</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 173);</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen">
+   <property name="text">
+    <string>open</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>exit</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../Images/play.qrc"/>
+ </resources>
+ <connections/>
+</ui>

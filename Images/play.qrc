@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>play.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>play.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>play.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>stop.jpg</file>
+    <file>resume.jpg</file>
+    <file>pause-logo-189304300.jpg</file>
+    <file>pause.png</file>
+  </qresource>
+</RCC>

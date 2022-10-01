@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>668</width>
+    <height>559</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../RHYTHM.jpg</normaloff>../RHYTHM.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);
+border: 2px solid red;
+border-color: rgb(0, 32, 217);</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>664</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);
+border: 2px solid red;
+border-color: rgb(0, 32, 217);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>10</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+font: 45pt &quot;MS Shell Dlg 2&quot;;
+font: 40pt &quot;13_Misa&quot;;
+color: rgb(230, 255, 0);
+border-color: rgb(0, 0, 0);
+}
+QLabel:hover{
+	color: rgb(0, 255, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rhythm</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>351</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color:rgb(225, 225, 225);font-size:15pt;
+border-color: rgb(0, 0, 0);
+color: rgb(0, 255, 255);
+}
+QLabel:hover{
+	color: rgb(255, 255, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="signupbutton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: rgb(167, 168, 167);font-size:14pt;color:rgb(255, 255, 255);
+color: rgb(0, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius:20px
+
+}
+
+QPushButton:hover {
+	
+	border-color:rgb(0, 255, 255);
+	background-color: rgb(2, 145, 254);
+}</string>
+    </property>
+    <property name="text">
+     <string>SignUp</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loginbutton">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>230</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: rgb(167, 168, 167);font-size:14pt;color:rgb(255, 255, 255);
+color: rgb(0, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius:20px;
+
+}
+
+QPushButton:hover {
+	
+	border-color:rgb(0, 255, 255);
+	background-color: rgb(2, 145, 254);
+}</string>
+    </property>
+    <property name="text">
+     <string>Confirm</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="email">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>100</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+font-size:14pt;color:rgb(245, 245, 245);
+color: rgb(0, 255, 255);
+border-radius:20px
+}
+QLineEdit:hover{
+border-color:rgb(0, 255, 255)
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="password">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>150</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+font-size:14pt;color:rgb(245, 245, 245);
+color: rgb(0, 255, 255);
+border-radius:20px
+}
+QLineEdit:hover{
+border-color:rgb(0, 255, 255)
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>200</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size:12pt;
+color: rgb(250, 10, 14);
+border-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Invalid Email or Password</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>351</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>10</y>
+       <width>201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+color:rgb(225, 225, 225);font-size:28pt;
+border-color: rgb(0, 0, 0);
+color: rgb(0, 255, 255);
+}
+QLabel:hover{
+	color: rgb(255, 255, 255);
+}</string>
+     </property>
+     <property name="text">
+      <string>Login Here</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color:rgb(225, 225, 225);font-size:15pt;
+border-color: rgb(0, 0, 0);
+color: rgb(0, 255, 255);
+}
+QLabel:hover{
+	color: rgb(255, 255, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Email</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>-50</x>
+     <y>80</y>
+     <width>841</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px solid red;
+border-color: rgb(0, 85, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Images/Loginframe.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>120</y>
+     <width>271</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+border-color: transparent;
+
+
+font: 20pt &quot;Calibri&quot;;
+background-color:transparent;
+color: rgb(170, 255, 255);
+}
+QLabel:hover{
+	color: rgb(255, 170, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>“Where words fail,</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>160</y>
+     <width>271</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+border-color: transparent;
+
+
+font: 20pt &quot;Calibri&quot;;
+background-color:transparent;
+color: rgb(170, 255, 255);
+}
+QLabel:hover{
+	
+	color: rgb(255, 255, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>music speaks.”</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>200</y>
+     <width>271</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+border-color: transparent;
+
+
+font: 15pt &quot;Calibri&quot;;
+background-color:transparent;
+color: rgb(170, 255, 255);
+}
+QLabel:hover{
+	color: rgb(0, 170, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>– Hans  Anderson</string>
+   </property>
+  </widget>
+  <zorder>label_5</zorder>
+  <zorder>frame</zorder>
+  <zorder>frame_2</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

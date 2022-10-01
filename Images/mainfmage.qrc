@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="newPrefix1">
+    <file>music-rainbow.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>retro-gaming-neon-background-with-shiny-music-wave_116953-933.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>image2.jpg</file>
+  </qresource>
+</RCC>

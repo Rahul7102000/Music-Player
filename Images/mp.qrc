@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>Apple-Music-Compatible-Speaker-Display-Square3.jpg</file>
+  </qresource>
+</RCC>
